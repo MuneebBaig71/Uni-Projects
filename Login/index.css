@@ -1,0 +1,59 @@
+.container{
+    border-radius: 5px;
+    background-color: #d8e3e4;
+    padding: 20px;
+    margin-top: -1rem;
+    margin-left: 35rem;
+    display: block;
+    width: 42rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    width: 15rem;
+    padding: 12px;
+    display: block;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  #btn{
+      width: 4rem;
+      height: 2rem;
+      border: none;
+      border-radius:1rem;
+      cursor: pointer;
+      background-color: rgb(67, 173, 180);
+  }
+  table, td, th {
+    border: 1px solid black;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    height: 50px;
+  }
+  button{
+      border-radius:2rem ;
+      width: 4rem;
+      height: 2rem;
+      border: none;
+      background-color: rgb(126, 204, 178);
+      cursor: pointer;
+      margin-top: 10px;
+  }
+  @media screen and (max-width: 650px) {
+    .container {
+      width: 42rem;
+      margin-left: 0;
+      display: block;
+    }
+  }
+      
